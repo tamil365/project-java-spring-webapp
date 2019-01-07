@@ -26,7 +26,7 @@ public class Application extends SpringBootServletInitializer {
     public CommandLineRunner commandLineRunner(ApplicationContext ctx) {
         return args -> {
 
-            System.out.println("inspect the beans provided by Spring Boot by the way i can set:");
+            System.out.println("inspect the beans provided:");
 
             String[] beanNames = ctx.getBeanDefinitionNames();
             Arrays.sort(beanNames);
