@@ -11,7 +11,7 @@ public class MyAppController {
     @RequestMapping("/")
     public String index() {
         return "index.html";
-        System.out.println("ping pong");
+        
     }
     
 }
