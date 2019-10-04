@@ -13,17 +13,18 @@
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>1.5.7.RELEASE</version>
     </parent>
-	<parent>
-		<groupId>com.talanlabs</groupId>
-  <artifactId>sonar-gitlab-plugin</artifactId>
-  <version>4.1.0-SNAPSHOT</version>
-	</parent>
 
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>            
+        </dependency>  
+	    
+	  <dependency>
+	    <groupId>com.github.gabrie-allaigre</groupId>
+	    <artifactId>sonar-gitlab-plugin</artifactId>
+	    <version>4.1.0-SNAPSHOT</version>
+	</dependency>
     </dependencies>
 
     <properties>
